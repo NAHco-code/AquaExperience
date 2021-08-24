@@ -1,0 +1,28 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/background-gradient-black-white.JPG');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* center on every viewport */
+.compass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+}
+
+.arrows {
+    display: flex;
+    height: 20vh;
+}
+
+#up-arrow {
+
+}
