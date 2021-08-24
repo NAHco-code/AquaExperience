@@ -14,4 +14,16 @@ html {
     transform: translate(-50%, -50%);
     transition: all 0.5s ease;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-photo {
+    width: 19vw;
+    height: 100%;
+    margin: 5px;
+    background-color: white;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
