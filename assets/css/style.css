@@ -30,6 +30,9 @@ html {
     flex-direction: row;
 }
 
-#up-arrow {
-
+#left-arrow {
+    margin-right: 9vw;
+}
+#right-arrow {
+    margin-left: 9vw;
 }
