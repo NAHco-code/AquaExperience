@@ -3,6 +3,14 @@ html {
     height: 100vh;
     background-size: 100% 100%;
 }
+#back-to-main {
+    position: absolute;
+    top: 2%;
+    left: 48%;
+    width: 5vw;
+    height: 5vh;
+    margin: auto;
+}
 
 .gallery-wrapper {
     width: 85vw;
