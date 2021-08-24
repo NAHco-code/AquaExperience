@@ -16,11 +16,18 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
-
 .arrows {
     display: flex;
-    height: 20vh;
+    height: 15vh;
+    width: auto;
+    margin: auto;
+}
+#left-right-arrows {
+    display: flex;
+    flex-direction: row;
 }
 
 #up-arrow {
