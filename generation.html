@@ -17,32 +17,43 @@
         </header>
         <main>
             <h2>Quick Review:</h2>
-            <!-- <div class='section-wrapper'> -->
             <section>
-                <p>
-                Use an ELEMENT SELECTOR to make all the text inside of each “p” tag italic.
+                <p class="class-group">
+                Use an ELEMENT SELECTOR to set all the text inside of each “p” tag italic.
                 </p>
 
-                <p class="orange">
-                    Use a CLASS SELECTOR to make all the elements with this class name orange.
+                <p class="class-group">
+                    Use a CLASS SELECTOR to set all the elements with this class name to be green.
                 </p>
 
-                <p id="green-background">
-                    Use an ID SELECTOR to make the specific element with this id have a green background.
+                <p id="highlight">
+                    Use an ID SELECTOR to set the specific element with this id to have a light blue background.
                 </p>
             </section>
 
-
             <h3>Box Model Basics:</h3>
-                <div class='section-wrapper'>
+            <section>
 
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+                <div class="box" id="box1">margin</div>
+                <div class="box" id="box2">border</div>
+                <div class="box" id="box3">padding</div>
+                <div class="box" id="box4">content</div>
+                <!-- <div class="box" id="box6">6</div> -->
 
-                </div>
+            </section>
+
+
+            <h3>CSS Position Property:</h3>
+                <section>
+
+                    <div class="box position" id="position1">static: default</div>
+                    <div class="box position" id="position2">relative: no specifiers</div>
+                    <div class="box position" id="position3">fixed: right 20px, bottom 40px</div>
+                    <div class="box position" id="position4">relative: left 75px, bottom -20px </div>
+                    <div class="box position" id="position5">absolute: right 45px, bottom 107px</div>
+                    <!-- <div class="box" id="box6">6</div> -->
+
+                </section>
         </main>
 
     </body>
