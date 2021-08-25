@@ -1,0 +1,19 @@
+
+/* IN PROGESS */
+/* NOT LINKED */
+
+/* Center: without flex */
+body {
+    position: static ; /* CSS property default */
+}
+header {
+    position: relative;
+}
+h1 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+
+/* Center: with flex */
