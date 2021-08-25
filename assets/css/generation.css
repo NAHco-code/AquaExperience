@@ -1,0 +1,31 @@
+
+* {
+    box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+
+
+
+
+
+p {
+   font-style: italic;
+}
+
+.orange {
+   color: orange;
+}
+
+#green-background {
+   background-color: green;
+}
