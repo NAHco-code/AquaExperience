@@ -142,6 +142,7 @@
         right: 20px; /* 30px from the right side of the screen/viewport */
         bottom: 40px; /* 25px from the bottom side of the screen/viewport */
         z-index: 1;
+        display: none;
     }
     #position4 {
         background-color: rgba(255, 94, 0, 0.615);
