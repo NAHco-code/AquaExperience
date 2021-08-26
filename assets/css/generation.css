@@ -50,7 +50,6 @@
         padding: 10px;
     }
 
-    /* CLASS Selector styling */
     .section-wrapper {
         background-color: white;
         padding: 10px;
@@ -73,13 +72,29 @@
     .box {
         width: auto;
         height: auto;
-        /* background-color: orange; */
         margin: 10px;
         padding: 15px;
-        border: whitesmoke solid 2px;
+        border: whitesmoke solid 3px;
     }
 
-    /* ID Selector styling */
+    #margin-demo {
+        background-color: rgba(205, 136, 79, 0.70);
+    }
+    #border-demo {
+        background-color: rgba(244, 198, 89, 0.70);
+    }
+    #padding-demo {
+        background-color: rgba(144, 231, 86, 0.70);
+    }
+    #content-demo {
+        background-color: rgba(72, 179, 255, 0.70);
+    }
+
+    /*** Begin CSS Position Property styling ***/
+    /* .position {
+
+    } */
+
     #position1 {
         background-color: rgba(0, 255, 98, 0.582);
         position: static; /* CSS position property default */
@@ -88,7 +103,6 @@
         background-color: rgba(255, 187, 0, 0.512);
         position: relative; /* makes itself relative to the previously positioned element/div other boxes */
     }
-
     #position3 {
         background-color: rgba(0, 149, 255, 0.615);
         position: fixed; /* removes itself from relativity of other boxes & maintains it's place in the z-index */
