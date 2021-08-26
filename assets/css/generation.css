@@ -46,11 +46,12 @@
     h3 {
         padding-top: 15px; /* match to 'main' element selector */
     }
-
     section {
         background-color: white;
         padding: 10px;
     }
+
+
     /*****  REVIEW DEMO *****/
     /* p {
     font-style: italic;
@@ -59,26 +60,22 @@
         background-color: white;
         padding: 10px;
     }
-
-
-
-    .class-group{
+    .class-green{
     color: rgb(3, 214, 101);
-    }
-*/
-     #highlight {
+    }*/
+     #id-highlight {
         /* background-color: rgba(0, 255, 255, 0.649); */
         /* padding: 5px; */
         /* border: blue solid 1px; */
     }
     /*end*/
 
-    /* begin Box Model Basics styling */
+
+    /* Box Model Basics */
     section {
         position: relative;
         /* position: static; */
     }
-
     .box {
         width: auto;
         height: auto;
@@ -86,6 +83,7 @@
         padding: 15px;
         border: whitesmoke solid 3px;
     }
+    /*****  BOX MODEL DEMO *****/
     #position-demo {
         color: white;
         border-color: white;
@@ -124,13 +122,14 @@
         /* border-color:rgba(255, 0, 208, 0.615); */
         /* border: none; */
     }
+    /*end*/
 
-    /*** Begin CSS Position Property styling ***/
+    /* CSS Position Property */
     .position-sec {
         position: static;
         z-index: 0;
     }
-
+    /*****  POSITION DEMO *****/
     #position1 {
         background-color: rgba(0, 255, 98, 0.582);
         position: static; /* CSS position property default */
@@ -167,6 +166,9 @@
         position: sticky;
         top: 50%;
     } */
+    /*end*/
+
+    /* Notes */
     #notes-sec {
         margin-top:10px;
         z-index: 0;
