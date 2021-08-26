@@ -61,10 +61,12 @@
     .class-group{
     color: rgb(3, 214, 101);
     }
-
+*/
     #highlight {
-    background-color: rgba(0, 255, 255, 0.649);
-    } */
+        /* background-color: rgba(0, 255, 255, 0.649); */
+        /* padding: 5px; */
+        /* border: blue solid 1px; */
+    }
     /*end*/
 
     /* begin Box Model Basics styling */
@@ -89,15 +91,34 @@
     }
     #margin-demo {
         background-color: rgba(205, 136, 79, 0.70);
+        border: rgb(18, 28, 34) dotted 4px;
+        /* padding: 0; */
+        /* margin: 0; */
+        /* border-color:rgba(255, 0, 208, 0.615); */
+        /* border: none; */
     }
     #border-demo {
-        background-color: rgba(244, 198, 89, 0.70);
+        background-color: rgba(241, 197, 94, 0.663);
+        border: rgb(83, 128, 156) groove 7px;
+        /* padding: 0;
+        margin: 0;
+        border-color:rgba(255, 0, 208, 0.615); */
+        /* border: none; */
     }
     #padding-demo {
         background-color: rgba(144, 231, 86, 0.70);
+        border: rgb(83, 128, 156) dashed 3px;
+        /* padding: 0; */
+        /* margin: 0; */
+        /* border-color:rgba(255, 0, 208, 0.615); */
+        /* border: none; */
     }
     #content-demo {
         background-color: rgba(72, 179, 255, 0.70);
+        /* padding: 0; */
+        /* margin: 0; */
+        /* border-color:rgba(255, 0, 208, 0.615); */
+        /* border: none; */
     }
 
     /*** Begin CSS Position Property styling ***/
