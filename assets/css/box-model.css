@@ -1,8 +1,8 @@
 /* Global styling */
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box;
         -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
+        -moz-box-sizing: border-box; */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -15,13 +15,11 @@
         position: static ; /* CSS property default */
         border: 0;
     }
-
     main {
         background-color: lightgray;
         margin: auto;
         padding: 5px 15px;
     }
-
     h1,
     h2,
     h3,
@@ -47,35 +45,130 @@
         padding-top: 15px; /* match to 'main' element selector */
     }
     section {
+        position: relative;
+        /* position: static; */
         background-color: white;
         padding: 10px;
     }
+
+
+
+
+
 
 
     /*****  REVIEW DEMO *****/
-    /* p {
+
+
+    p {
     font-style: italic;
-    }
-    section {
-        background-color: white;
-        padding: 10px;
     }
     .class-green{
     color: rgb(3, 214, 101);
-    }*/
+    }
      #id-highlight {
-        /* background-color: rgba(0, 255, 255, 0.649); */
+        background-color: rgba(0, 255, 255, 0.649);
         /* padding: 5px; */
         /* border: blue solid 1px; */
     }
+
+
     /*end*/
 
 
+
+
+
+
+
+
+
+
+
     /* Box Model Basics */
-    section {
-        position: relative;
-        /* position: static; */
+
+    /*****  BOX MODEL DEMO *****/
+
+    #box-model-sec {
+        /* padding: 0;
+        margin: 0; */
+        height: 100vh;
     }
+
+    .box-one {
+        /* box-sizing: border-box; */
+        background-color: rgba(72, 179, 255, 0.45);
+        width: 100px;
+        height: 100px;
+        padding: 20px 25px 10px 40px;
+        padding-top: 40px;
+        border: black solid 1px;
+        /* margin: auto; */
+        margin-bottom: 20px;
+
+    }
+
+    .box-two {
+        /* box-sizing: border-box; */
+        background-color: rgba(144, 231, 86, 0.45);
+        width: 100px;
+        height: 100px;
+        border: black solid 1px;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .box {
         width: auto;
         height: auto;
@@ -83,14 +176,62 @@
         padding: 15px;
         border: whitesmoke solid 3px;
     }
-    /*****  BOX MODEL DEMO *****/
-    #position-demo {
-        color: white;
-        border-color: white;
-        padding: 0 0 5 0;
-        margin: 0;
-        font-size: 12px;
+
+    #content-demo {
+        background-color: rgba(72, 179, 255, 0.70);
+        /* padding: 0; */
+        /* margin: 0; */
+        /* border-color:rgba(255, 0, 208, 0.615); */
+        /* border: none; */
+        /* visibility: hidden; */
     }
+            .example-selector {
+                box-sizing: content-box; /* default */ /* TODO: look up block element */
+                box-sizing: border-box;
+                width: 5px;
+                min-width: 5px;
+                max-width: 5px;
+                height: 5px;
+                min-height: 5px;
+                max-height: 5px;
+            }
+
+    #padding-demo {
+        background-color: rgba(144, 231, 86, 0.70);
+        border: rgb(83, 128, 156) dashed 3px;
+        /* padding: 0; */
+        /* margin: 0; */
+        /* border-color:rgba(255, 0, 208, 0.615); */
+        /* border: none; */
+        /* visibility: hidden; */
+    }
+            .example-selector {
+                padding-top: 5px;
+                padding-right: 5px;
+                padding-bottom: 5px;
+                padding-left: 5px;
+                padding: 5px 5px 5px 5px;
+                padding: 5px;
+            }
+
+    #border-demo {
+        background-color: rgba(241, 197, 94, 0.663);
+        border: rgb(83, 128, 156) groove 7px;
+        /* padding: 0;
+        margin: 0;
+        border-color:rgba(255, 0, 208, 0.615); */
+        /* border: none; */
+        /* visibility: hidden; */
+    }
+            .example-selector {
+                /* padding-top: 5px;
+                padding-right: 5px;
+                padding-bottom: 5px;
+                padding-left: 5px;
+                padding: 5px 5px 5px 5px;
+                padding: 5px; */
+            }
+
     #margin-demo {
         background-color: rgba(205, 136, 79, 0.70);
         border: rgb(18, 28, 34) dotted 4px;
@@ -99,29 +240,29 @@
         /* border-color:rgba(255, 0, 208, 0.615); */
         /* border: none; */
     }
-    #border-demo {
-        background-color: rgba(241, 197, 94, 0.663);
-        border: rgb(83, 128, 156) groove 7px;
-        /* padding: 0;
+            .example-selector {
+                /* padding-top: 5px;
+                padding-right: 5px;
+                padding-bottom: 5px;
+                padding-left: 5px;
+                padding: 5px 5px 5px 5px;
+                padding: 5px; */
+            }
+    #position-demo {
+        color: white;
+        border-color: white;
+        padding: 0 0 5 0;
         margin: 0;
-        border-color:rgba(255, 0, 208, 0.615); */
-        /* border: none; */
+        font-size: 12px;
     }
-    #padding-demo {
-        background-color: rgba(144, 231, 86, 0.70);
-        border: rgb(83, 128, 156) dashed 3px;
-        /* padding: 0; */
-        /* margin: 0; */
-        /* border-color:rgba(255, 0, 208, 0.615); */
-        /* border: none; */
-    }
-    #content-demo {
-        background-color: rgba(72, 179, 255, 0.70);
-        /* padding: 0; */
-        /* margin: 0; */
-        /* border-color:rgba(255, 0, 208, 0.615); */
-        /* border: none; */
-    }
+            .example-selector {
+                /* padding-top: 5px;
+                padding-right: 5px;
+                padding-bottom: 5px;
+                padding-left: 5px;
+                padding: 5px 5px 5px 5px;
+                padding: 5px; */
+            }
     /*end*/
 
     /* CSS Position Property */
