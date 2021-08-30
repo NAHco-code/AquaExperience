@@ -1,43 +1,52 @@
 html {
     width: 100vw;
     height: 100vh;
-    background-image: url('../images/background-gradient-black-white.JPG');
+    background-color: black;
+    /* background-image: url('../images/background-gradient-black-white.JPG');
     background-size: 100% 100%;
     background-repeat: no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
-        -o-background-size: cover;
+        -o-background-size: cover; */
 }
 
-/* center on every viewport */
+/* center on every viewport with flexbox */
 .compass {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: all 0.5s ease;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
-}
-.arrows {
-    display: flex;
-    height: 15vh;
-    width: auto;
-    margin: auto;
+    justify-content: space-between;
 }
 #left-right-arrows {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.arrows {
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+}
+
+#up-arrow {
+    margin: auto;
 }
 
 #left-arrow {
-    margin-right: 9vw;
     transform: rotate(-90deg);
+    margin: auto;
+
 }
 #right-arrow {
-    margin-left: 9vw;
     transform: rotate(90deg);
+    margin: auto;
+
 }
 #down-arrow {
     transform: rotate(180deg);
+    margin: auto;
+
 }
