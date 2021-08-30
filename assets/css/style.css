@@ -32,7 +32,12 @@ html {
 
 #left-arrow {
     margin-right: 9vw;
+    transform: rotate(-90deg);
 }
 #right-arrow {
     margin-left: 9vw;
+    transform: rotate(90deg);
+}
+#down-arrow {
+    transform: rotate(180deg);
 }
