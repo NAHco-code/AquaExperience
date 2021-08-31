@@ -61,3 +61,38 @@ html {
     margin: auto;
 
 }
+
+.welcome-text {
+    color: white;
+    font-size: 50px;
+    font-family: 'Comfortaa';
+    background: linear-gradient(90deg, #000, #fff, #000);
+        -webkit-background-clip: text;
+    background-clip: text;
+        -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+}
+
+    @keyframes shine {
+        0% {
+            background-position-x: -500%;
+        }
+        100% {
+            background-position-x: 500%;
+        }
+    }
+/* #hello {
+    animation: fadeOutAnimation ease-out 1s;
+    animation-delay: 10s;
+}
+    @keyframes fadeOutAnimation {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    } */
